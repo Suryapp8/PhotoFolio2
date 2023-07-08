@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3498db;
+  text-decoration: none !important;
+}
+
+.logo-img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  margin: 0 2rem;
+}
+
+.navbar > h1 {
+  color: black;
+}
+
+.add-album {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-album > h2 {
+  margin-left: 2rem;
+}
+
+.add-img-btn {
+  margin-right: 2rem;
+  height: 2.5rem;
+  width: 6rem;
+  border: 3px solid #5856d6;
+  color: #5856d6;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.add-img-btn:hover {
+  cursor: pointer;
+}
+
+.create-album {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: antiquewhite;
+  height: 10rem;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.heading > h2 {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.input > input {
+  border: none;
+  height: 2rem;
+  border-radius: 10px;
+  color: black;
+  font-size: larger;
+  padding-left: 1rem;
+  margin-right: 1rem;
+}
+
+.clear {
+  height: 2rem;
+  border: none;
+  background-color: red;
+  color: white;
+  width: 4rem;
+  font-weight: 800;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.create {
+  height: 2rem;
+  border: none;
+  background-color: blue;
+  color: white;
+  width: 4rem;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.clear,
+.create:hover {
+  cursor: pointer;
+}
